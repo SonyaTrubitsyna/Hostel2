@@ -1,0 +1,772 @@
+html {
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+header {
+    background: white;
+}
+
+
+.logo {
+    margin-left: 250px;
+    width: 840px;
+    text-align: center;
+    color: #D5B45B;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    padding: 10px 0;
+    border-bottom: 2px solid #E6E6E6;
+    margin-bottom: 10px;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.menu_item {
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+
+ul.ddropdownn li {
+    position: relative;
+    /*способ позиционирования элемента относительно окна браузера*/
+    z-index: 99999;
+}
+
+ul.ddropdownn,
+ul.ddropdownn-inside {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.ddropdownn-inside {
+    width: 200px;
+    left: -9999px;
+    position: absolute;
+}
+
+
+ul.ddropdownn li.ddropdownn-top a {
+    display: block;
+    padding: 3px 3px 4px;
+}
+
+
+ul.ddropdownn a.ddropdownn-top:hover {
+    padding: 3px 3px 4px;
+}
+
+ul.ddropdownn li.ddropdownn-top:hover .ddropdownn-inside {
+    left: 0;
+    display: block;
+}
+
+ul.ddropdownn .ddropdownn-inside {
+    background: #f5f5f5;
+    /* Цвет фона выпадающего меню. */
+}
+
+ul.ddropdownn .ddropdownn-inside a:hover {
+    color: rgb(74, 170, 66);
+    /* Цвет фона при наведении. */
+}
+
+.dropdown_text {
+    font: 16px/26px MyriadProReg, Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #5a585c;
+}
+
+
+
+.item {
+    color: #7d7d7d;
+}
+
+.border_top {
+    border-top: 5px solid rgb(74, 170, 66);
+}
+
+.page_announce {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: rgb(74, 170, 66);
+    text-align: center;
+}
+
+.page_announce_title {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+.page_announce_text {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.page_announce_margin {
+    float: left;
+    width: 600px;
+    text-align: left;
+}
+
+.car_text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+
+.invitation {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.about_hotel {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    float: left;
+    width: 100%;
+    background: white;
+}
+
+.about_hotel_list {
+    list-style: none;
+}
+
+.about_hotel_item {
+    float: left;
+}
+
+.hotel_img {
+    float: left;
+    margin-right: 30px;
+    width: 400px;
+}
+
+.hotel_img_up {
+    float: left;
+    width: 320px;
+}
+
+.hotel_img_down {
+    float: left;
+    width: 320px;
+    margin: -180px 0 0 130px;
+
+}
+
+.about_hotel_all_text {
+    margin-top: 40px;
+    margin-left: 550px;
+    width: 550px;
+}
+
+.about_hotel_title {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(74, 170, 66);
+}
+
+.about_hotel_text {
+    color: dimgrey;
+    font-size: 15px;
+}
+
+
+.about_rooms {
+    background: #f5f5f5;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.about_rooms_all_text {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.about_rooms_title {
+    text-align: center;
+    margin-bottom: 15px;
+    font: 28px/32px MyriadProLight, Arial, Helvetica, sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.about_rooms_text {
+    text-align: center;
+    font: 16px/24px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #7d7d7d;
+    margin-bottom: 25px;
+}
+
+.about_rooms_img {
+    text-align: center;
+    list-style: none;
+}
+
+.text_on_img {
+    position: absolute;
+    left: 9px;
+    bottom: -100px;
+    font: 25px century gothic;
+    color: #fff;
+}
+
+.about_rooms_item {
+    position: relative;
+    margin-right: 50px;
+    display: inline;
+}
+
+.about_services {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.about_services_all_text {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.about_services_title {
+    text-align: center;
+    margin-bottom: 15px;
+    font: 28px/32px MyriadProLight, Arial, Helvetica, sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.about_services_text {
+    text-align: center;
+    font: 16px/24px MyriadProReg, Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    color: #7d7d7d;
+}
+
+.about_services_list {
+    text-align: center;
+    list-style: none;
+}
+
+.about_services_item {
+    position: relative;
+    margin-right: 50px;
+    display: inline;
+}
+
+.button_services {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.btn_services {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 9px 9px;
+    background: rgb(74, 170, 66);
+    border-radius: 2px;
+    font: 14px/14px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.additional_text {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font: 16px/24px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #7d7d7d;
+}
+
+
+
+
+
+
+
+
+.border_top_room {
+    border-top: 5px solid #DCDCDC;
+}
+
+.rooms {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.rooms_list {
+    list-style: none;
+}
+
+.room_item {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.room_img {
+    float: left;
+    margin-right: 40px;
+    border: 3px solid rgb(140, 198, 63);
+}
+
+.room_link {
+    color: rgb(74, 170, 66);
+}
+
+.room_all_text {
+    padding-top: 50px;
+    float: left;
+    width: 500px;
+}
+
+.room_title {
+    font: 30px MyriadProSemiBold, Arial, Helvetica, sans-serif;
+    color: rgb(74, 170, 66);
+    margin-bottom: 5px;
+}
+
+.room_text {
+    font: 20px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #888;
+}
+
+
+
+.footer {
+    float: left;
+    padding: 10px 0;
+    border-top: 5px solid rgb(74, 170, 66);
+    background: rgb(56, 124, 44);
+    width: 100%;
+}
+
+.footer_middle {
+    text-align: center;
+    font: 13px/20px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #93BD8F;
+}
+
+.footer_list {
+    margin: 20px;
+    list-style: none;
+}
+
+.footer_text {
+    text-align: center;
+    font: 13px/20px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: rgb(162, 204, 105);
+    padding-bottom: 10px;
+}
+
+
+
+
+.services {
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;
+    background: #fff;
+}
+
+.service_list {
+    list-style: none;
+}
+
+.service_item {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.service_img {
+    float: left;
+    margin-right: 40px;
+    border: 5px solid #80C342;
+}
+
+.service_desc {
+    width: 950px;
+    padding: 15px 0;
+}
+
+.service_title {
+    font: 28px/32px MyriadProLight, Arial, Helvetica, sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.service_text {
+    font: 14px/20px MyriadProReg, Arial, Helvetica, sans-serif;
+    color: #7d7d7d;
+}
+
+
+
+.contacts_img {
+    border-top: 5px solid #DCDCDC;
+    border-bottom: 5px solid #DCDCDC;
+}
+
+.contacts {
+    float: left;
+    background: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts_title {
+    margin-bottom: 20px;
+    font: 28px "MyriadProReg", sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.contacts_item {
+    font: 20px/28px "MyriadProReg", sans-serif;
+    color: #7d7d7d;
+    list-style-type: none;
+}
+
+#adress {
+    list-style-image: url(2022-03-25_13-50-24.png);
+}
+
+#tel {
+    list-style-image: url(2022-03-25_13-52-19.png);
+}
+
+#email {
+    list-style-image: url(2022-03-25_13-51-40.png);
+}
+
+.contacts_sign {
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(74, 170, 66);
+}
+
+.contacts_text {
+    color: #7d7d7d;
+}
+
+.map_img {
+    margin-top: 20px;
+    margin-left: 750px;
+
+}
+
+
+.road_content {
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+.road {
+    float: left;
+    width: 100%;
+    padding: 30 px;
+    background: rgb(74, 170, 66);
+    text-align: center;
+}
+
+.paragraph {
+    padding-top: 40px;
+}
+
+.road_title1 {
+    font-weight: bold;
+    padding-top: 10px;
+    font: 32px 'MyriadProSemiBold', sans-serif;
+    color: #ffffff;
+}
+
+.road_title2 {
+    font: 29px 'MyriadProReg', sans-serif;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.road_exp {
+    padding-left: 200px;
+    padding-bottom: 50px;
+    width: 1100px;
+
+}
+
+.road_exp_title {
+    margin-bottom: 10px;
+    font: 28px "MyriadProReg", sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.road_exp_text {
+    font: 18px/24px "MyriadProReg", sans-serif;
+    margin-bottom: 25px;
+    color: #7d7d7d;
+}
+
+.acc_title {
+    font-size: 20px;
+    color: rgb(74, 170, 66);
+    margin-left: 550px;
+}
+
+.accordion-body {
+    width: 980px;
+    margin-left: 150px;
+}
+
+.acc_name {
+    font: 20px "MyriadProReg", sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+
+
+
+.greatings {
+    padding: 20px 0;
+    background: rgb(74, 170, 68);
+    text-align: center;
+    width: 100%;
+}
+
+.greatings_title {
+    font: 32px 'MyriadProSemiBold', sans-serif;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+.desc_hotel {
+    background: white;
+    float: left;
+    width: 850px;
+}
+
+.desc_hotel_title {
+    margin-left: 50px;
+    margin-top: 20px;
+    font: 28px "MyriadProReg", sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.desc_hotel_text {
+    margin-left: 50px;
+    font: 18px/24px chicago;
+    color: #7d7d7d;
+    margin-bottom: 20px;
+}
+
+.carousel_about_hotel {
+    border-top: 5px solid #DCDCDC;
+    border-bottom: 5px solid #DCDCDC;
+}
+
+.info_about_time {
+    float: left;
+    background: rgb(74, 170, 68);
+    width: 100%;
+}
+
+.info_about_time_title {
+    font: 30px "MyriadProReg", sans-serif;
+    color: white;
+
+}
+
+
+
+
+
+
+
+.standard_img {
+    border-top: 5px solid #DCDCDC;
+}
+
+
+.page_announce_room {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: rgb(74, 170, 66);
+    text-align: center;
+}
+
+.page_announce_room_title {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+.page_announce_room_text {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.page_announce_room_margin {
+    float: left;
+    width: 600px;
+    text-align: left;
+}
+
+.room_details {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.standard_room {
+    padding-top: 50px;
+    background-color: white;
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.details {
+    float: left;
+    width: 50%;
+}
+
+.occupancy {
+    margin-right: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    color: rgb(233, 94, 64);
+}
+
+.icon {
+    display: inline-block;
+    width: 39px;
+    height: 20px;
+    background: url(2022-04-04_19-07-07.png) no-repeat 0 0;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #b5b5b5;
+}
+
+.rooms_img {
+    float: left;
+    border: 3px solid rgb(140, 198, 63);
+}
+
+.full_desc {
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.full_desc_title {
+    font: 28px/38px MyriadProLight, Arial, Helvetica, sans-serif;
+    color: rgb(74, 170, 66);
+}
+
+.room_desc {
+    font-size: 15px;
+    line-height: 20px;
+    color: #5a585c;
+    margin-bottom: 10px;
+}
+
+.equip {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.equip_title {
+    font: 28px/38px MyriadProLight, Arial, Helvetica, sans-serif;
+    color: #228B22;
+}
+
+.equip_list {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.equip_item {
+    float: left;
+    width: 450px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #7d7d7d;
+    line-height: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+.room_car {
+    border-top: 5px solid #DCDCDC;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+}
